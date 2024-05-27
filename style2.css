@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width:375px){
+   
+    nav{
+        height: 100px;
+
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul li{
+        font-size: 20px;
+    }
+   nav img{
+    width: 90px;
+    height: 80px;
+   }
+  
+  .my__name{
+    font-size: 30px;
+  }
+  .name .id p{
+    font-size: 12px;
+  }
+ .name  .info p{
+    font-size: 18px;
+ }
+ 
+  .name{
+    flex-direction: column;
+  justify-content: center;
+  }
+    .projects_container .sample_projects{
+        display: block;
+        flex-direction: column;
+        padding: 20px;
+        margin: 50px;
+    }
+    .projects_container div button{
+        margin: 50px;
+    }
+    .contact__us{
+        display: block;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .contact__us__more_data {
+        margin: .5rem 0;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+    .contact__us__form{
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 20px;
+    }
+}
